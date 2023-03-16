@@ -13,7 +13,7 @@ Um sistema de monitoramento de código aberto com um modelo de dados dimensional
 Usaremos como base o repositorio oficial:
 https://github.com/prometheus-community/helm-charts.git
 
-### Helm:
+### Helm
 
 O Helm facilita gerenciar aplicativos do Kubernetes, os helm Charts ajudam a definir, instalar e atualizar até mesmo o aplicativo Kubernetes mais complexo.
 
@@ -34,6 +34,7 @@ Inicie a instalação do prometheus usando terraform para executar o Helm e kube
 
 ```
 git clone https://github.com/madson7/helm-applications.git
+cd helme-applications
 ```
 
 Terminal 01
