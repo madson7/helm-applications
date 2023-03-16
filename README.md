@@ -1,4 +1,5 @@
-# helm-applications
+![get nodes](./img/helm.svg)
+# Helm Applications
 Installation of charts helm applications with terraform
 
 *Olá esse é mais um post rapido.*
@@ -30,6 +31,10 @@ scp ubuntu@IP-EC2-ADMIN-PUBLIC:/opt/config/kube_config_cluster.yml ~/.kube/confi
 Edite o arquivo ~/.kube/config tocando o IP do server API por 127.0.0.1, pois, iremos usar um túnel ssh.
 
 Inicie a instalação do prometheus usando terraform para executar o Helm e kubectl a partir de um túnel ssh, então abra dois terminais um para execução do túnel e outro para o terraform:
+
+```
+git clone https://github.com/madson7/helm-applications.git
+```
 
 Terminal 01
 
